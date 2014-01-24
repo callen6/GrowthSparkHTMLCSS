@@ -1,0 +1,59 @@
+html {
+	font-family: "Helvetica", sans-serif;
+}
+
+#header-container {
+	width: 100%;
+	height: 150px;
+	background-color: #164CF0;
+}
+
+#header-wrapper {
+	padding-top: 70px;
+}
+
+#header-title {
+	color: white;
+	font-size: 30px;
+	margin-left: 60px;
+}
+
+#header-tagline {
+	color: #60A2F7;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#header-button {
+	width: 200px;
+	background-color: #E32929;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 350px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#header-links a, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.header-links li {
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+.header-links a {
+	color: white;
+	font-size: 18px;
+}
+
+#header-title, #header-tagline, #header-button, .header-links, #artwork, #about, #blog, #support {
+	display: inline-block;
+}
+
+a {text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+a:visited{text-decoration: none;}
